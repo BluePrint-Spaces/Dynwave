@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dynwave",
+  "version": "${version}",
+  "name": "DynWave",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/dynwave/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.blueprintspaces.dynwave.client.DynwaveClient"
+    ],
+    "main": [
+      "org.blueprintspaces.dynwave.Dynwave"
+    ]
+  },
+  "mixins": [
+    "dynwave.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
