@@ -1,1 +1,13 @@
 /give @p dynwave:water_geyser_block
+/organizeTeams
+/random
+/random roll 10000 minecraft:blocks/cobweb
+/random roll 2 minecraft:blocks/cobweb
+/random roll 1 minecraft:blocks/cobweb
+/random roll {1:2}
+/summon minecraft:ender_dragon ~ ~ ~ {No:AI}
+/kick Player822
+/give @p dynwave:pool_noodles
+/summon dynwave:moving_obstacle
+/give @p minecraft:command_block
+/summon dynwave:moving_obstacle

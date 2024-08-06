@@ -26,7 +26,7 @@ public class BlockWaterGeyser extends Block
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(!world.isClient() && entity instanceof PlayerEntity player){
-            Vec3d vec3 = new Vec3d(0,20,0);
+            Vec3d vec3 = new Vec3d(0,5,0);
             player.addVelocity(vec3.x, vec3.y, vec3.z);
             player.velocityModified = true;
             StatusEffectInstance slowFallingEffect = new StatusEffectInstance(StatusEffects.SLOW_FALLING,200,0);
