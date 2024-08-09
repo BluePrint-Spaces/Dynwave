@@ -1,7 +1,8 @@
 {
-  "variant": {
-    "": {
-      "model": "dynwave:block/water_geyser_block"
-    }
+  "variants": {
+    "facing=north": { "model": "dynwave:block/water_geyser_block" },
+    "facing=east": { "model": "dynwave:block/water_geyser_block", "y": 90 },
+    "facing=south": { "model": "dynwave:block/water_geyser_block", "y": 180 },
+    "facing=west": { "model": "dynwave:block/water_geyser_block", "y": 270 }
   }
 }

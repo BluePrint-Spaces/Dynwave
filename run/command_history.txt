@@ -11,3 +11,11 @@
 /summon dynwave:moving_obstacle
 /give @p minecraft:command_block
 /summon dynwave:moving_obstacle
+/give @p dynwave:spinning_bar
+/give @p dynwave:water_gun
+/give @p dynwave:water_bullet 64
+/time set day
+/give @p dynwave:water_gun
+/give @p dynwave:water_bullet 1024
+/summon minecraft:camel 20.72 64.13 -81.16 {NoAI}
+/summon minecraft:camel 20.72 64.13 -81.16 {variant:NoAI}

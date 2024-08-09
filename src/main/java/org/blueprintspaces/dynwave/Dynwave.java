@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.blueprintspaces.dynwave.commands.TeamOrganizerCommand;
 import org.blueprintspaces.dynwave.init.BlocksInit;
+import org.blueprintspaces.dynwave.init.DynWaveGroup;
 import org.blueprintspaces.dynwave.init.EntityInit;
 import org.blueprintspaces.dynwave.init.ItemInit;
 
@@ -18,6 +19,7 @@ public class Dynwave implements ModInitializer {
         BlocksInit.registerModBlocks();
         TeamOrganizerCommand.initialize();
 
+        DynWaveGroup.registerItemGroups();
         ItemInit.registerModItems();
         EntityInit.registerModEntities();
     }

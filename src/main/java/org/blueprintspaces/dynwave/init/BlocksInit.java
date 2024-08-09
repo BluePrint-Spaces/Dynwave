@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import org.blueprintspaces.dynwave.Dynwave;
 import org.blueprintspaces.dynwave.blocks.BlockJumpBoost;
 import org.blueprintspaces.dynwave.blocks.BlockWaterGeyser;
+import org.blueprintspaces.dynwave.blocks.SpinningBarBlock;
 
 public class BlocksInit
 {
@@ -20,6 +21,8 @@ public class BlocksInit
             new BlockWaterGeyser(AbstractBlock.Settings.copy(Blocks.STONE)));
     public static final Block BLOCK_JUMP_BOOST = registerBlock("jump_boost_block",
             new BlockJumpBoost(AbstractBlock.Settings.copy(Blocks.STONE)));
+    public static final Block SPINNING_BAR = registerBlock("spinning_bar",
+            new SpinningBarBlock(AbstractBlock.Settings.copy(Blocks.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

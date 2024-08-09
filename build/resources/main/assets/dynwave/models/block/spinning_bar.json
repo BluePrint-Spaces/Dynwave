@@ -1,0 +1,23 @@
+{
+
+	"texture_size": [512, 512],
+	"textures": {
+		"0": "dynwave:block/spinning_bar"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 0],
+			"to": [32, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-74, 0, 1]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 2, 1], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 1], "texture": "#0"},
+				"south": {"uv": [2.5, 0.5, 4, 1], "texture": "#0"},
+				"west": {"uv": [2, 0.5, 2.5, 1], "texture": "#0"},
+				"up": {"uv": [2, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [3.5, 0, 2, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

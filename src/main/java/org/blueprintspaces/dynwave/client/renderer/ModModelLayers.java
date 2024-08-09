@@ -8,4 +8,6 @@ public class ModModelLayers
 {
     public static final EntityModelLayer MOVING_OBS_LAYER =
             new EntityModelLayer(new Identifier(Dynwave.MOD_ID,"moving_obstacle_layer"),"main");
+    public static final EntityModelLayer BULLET =
+            new EntityModelLayer(new Identifier(Dynwave.MOD_ID,"bullet_layer"),"main");
 }

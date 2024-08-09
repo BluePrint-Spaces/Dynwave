@@ -25,12 +25,7 @@ public class ItemSpinningBarSpwaner extends Item
         if (!world.isClient()) {
             BlockPos spawnPos = pos.offset(direction);
 
-            MovingEntity entity = EntityInit.MOVING_OBSTACLE.create(world);
-            if (entity != null) {
-                entity.refreshPositionAndAngles(spawnPos.getX(), spawnPos.getY(), spawnPos.getZ(), context.getPlayerYaw(), 0);
 
-                world.spawnEntity(entity);
-            }
         }
 
         return ActionResult.SUCCESS;
